@@ -69,6 +69,16 @@ body {
     border-radius: 50%;
 }
 
+.border-number:hover {
+    color: hsl(0, 0%, 100%);
+    background-color: rgba(121,132,150,255);
+}
+
+.border-number:active {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+}
+
 .submit-button {
     color: hsl(0, 0%, 100%);
     background-color: hsl(25, 97%, 53%);
@@ -80,4 +90,9 @@ body {
     width: 350px;
     height: 40px;
     border-radius: 30px;
+}
+
+.submit-button:active {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
 }
