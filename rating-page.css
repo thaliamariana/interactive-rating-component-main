@@ -1,3 +1,44 @@
 body {
     background-color: hsl(216, 12%, 8%);
 }
+
+.main-box {
+    align-items: center;
+}
+
+.card-machine-icon {
+    width: 42%;
+    height: 30%;
+    margin: 20px 0px 30px 0px;
+}
+
+.rating-text {
+    color: hsl(25, 97%, 53%);
+    background-color: #2e353f;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    border-radius: 30px;
+    width: 190px;
+    height: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 4px;
+    align-items: center;
+}
+
+.thank-text {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.support-text {
+    color: hsl(217, 12%, 63%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0px 13px 0px 13px;
+    text-align: center;
+}
