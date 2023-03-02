@@ -12,7 +12,7 @@ body {
     margin: 20px 0px 30px 0px;
 }
 
-.rating-text {
+#rating-text {
     color: hsl(25, 97%, 53%);
     background-color: #2e353f;
     font-family: 'Outfit', sans-serif;
