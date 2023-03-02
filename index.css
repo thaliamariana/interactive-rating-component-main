@@ -74,12 +74,12 @@ body {
     background-color: rgba(121,132,150,255);
 }
 
-.border-number:active {
+.border-number:focus {
     color: hsl(0, 0%, 100%);
     background-color: hsl(25, 97%, 53%);
 }
 
-.submit-button {
+#submit-button {
     color: hsl(0, 0%, 100%);
     background-color: hsl(25, 97%, 53%);
     font-family: 'Outfit', sans-serif;
@@ -92,7 +92,7 @@ body {
     border-radius: 30px;
 }
 
-.submit-button:active {
+#submit-button:active {
     color: hsl(25, 97%, 53%);
     background-color: hsl(0, 0%, 100%);
 }
