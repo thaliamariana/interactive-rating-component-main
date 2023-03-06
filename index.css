@@ -96,3 +96,34 @@ body {
     color: hsl(25, 97%, 53%);
     background-color: hsl(0, 0%, 100%);
 }
+
+@media screen and (max-width: 600px) {
+    .main-box {
+        width: 275px;
+        height: 330px;
+    }
+
+    .star-border {
+        width: 42px;
+        height: 42px;
+    }
+
+    .main-text {
+        font-size: 25px;
+    }
+
+    .feedback {
+        font-size: 13.5px;
+    }
+
+    .border-number {
+        font-size: 13.5px;
+        width: 40px;
+        height: 40px;
+    }
+
+    #submit-button {
+        width: 270px;
+        height: 45px;
+    }
+}
